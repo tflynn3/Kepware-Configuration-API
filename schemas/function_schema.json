@@ -1,0 +1,3242 @@
+[
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "_config_v1_project",
+        "params": [],
+        "path": "\"/config/v1/project\".format()"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "aliases",
+        "params": [],
+        "path": "\"/config/v1/project/aliases\".format()"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "aliases",
+        "params": [
+            "aliases_name"
+        ],
+        "path": "\"/config/v1/project/aliases/{}\".format(aliases_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "channels",
+        "params": [],
+        "path": "\"/config/v1/project/channels\".format()"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "channels",
+        "params": [
+            "channels_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}\".format(channels_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "channels_devices",
+        "params": [
+            "channels_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices\".format(channels_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "channels_devices",
+        "params": [
+            "channels_name",
+            "devices_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}\".format(channels_name, devices_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "channels_devices_consumerexchangegroups",
+        "params": [
+            "channels_name",
+            "devices_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/consumer_exchange_groups\".format(channels_name, devices_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "channels_devices_consumerexchangegroups",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "consumer_exchange_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/consumer_exchange_groups/{}\".format(channels_name, devices_name, consumer_exchange_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "channels_devices_consumerexchangegroups_consumerexchanges",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "consumer_exchange_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/consumer_exchange_groups/{}/consumer_exchanges\".format(channels_name, devices_name, consumer_exchange_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "channels_devices_consumerexchangegroups_consumerexchanges",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "consumer_exchange_groups_name",
+            "consumer_exchanges_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/consumer_exchange_groups/{}/consumer_exchanges/{}\".format(channels_name, devices_name, consumer_exchange_groups_name, consumer_exchanges_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "channels_devices_consumerexchangegroups_consumerexchanges_ranges",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "consumer_exchange_groups_name",
+            "consumer_exchanges_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/consumer_exchange_groups/{}/consumer_exchanges/{}/ranges\".format(channels_name, devices_name, consumer_exchange_groups_name, consumer_exchanges_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "channels_devices_consumerexchangegroups_consumerexchanges_ranges",
+        "params": [
+            "channels_name",
+            "consumer_exchange_groups_name",
+            "ranges_name",
+            "devices_name",
+            "consumer_exchanges_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/consumer_exchange_groups/{}/consumer_exchanges/{}/ranges/{}\".format(channels_name, consumer_exchange_groups_name, ranges_name, devices_name, consumer_exchanges_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "channels_devices_deviceprofiles",
+        "params": [
+            "channels_name",
+            "devices_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/device_profiles\".format(channels_name, devices_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "channels_devices_deviceprofiles",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "device_profiles_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/device_profiles/{}\".format(channels_name, devices_name, device_profiles_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "channels_devices_enronaddressrangegroups",
+        "params": [
+            "channels_name",
+            "devices_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/enron_address_range_groups\".format(channels_name, devices_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "channels_devices_enronaddressrangegroups",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "enron_address_range_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/enron_address_range_groups/{}\".format(channels_name, devices_name, enron_address_range_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "channels_devices_enronaddressrangegroups_enronaddressranges",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "enron_address_range_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/enron_address_range_groups/{}/enron_address_ranges\".format(channels_name, devices_name, enron_address_range_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "channels_devices_enronaddressrangegroups_enronaddressranges",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "enron_address_ranges_name",
+            "enron_address_range_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/enron_address_range_groups/{}/enron_address_ranges/{}\".format(channels_name, devices_name, enron_address_ranges_name, enron_address_range_groups_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "channels_devices_enronmappinggroups",
+        "params": [
+            "channels_name",
+            "devices_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/enron_mapping_groups\".format(channels_name, devices_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "channels_devices_enronmappinggroups",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "enron_mapping_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/enron_mapping_groups/{}\".format(channels_name, devices_name, enron_mapping_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "channels_devices_enronmappinggroups_enronmappings",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "enron_mapping_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/enron_mapping_groups/{}/enron_mappings\".format(channels_name, devices_name, enron_mapping_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "channels_devices_enronmappinggroups_enronmappings",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "enron_mappings_name",
+            "enron_mapping_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/enron_mapping_groups/{}/enron_mappings/{}\".format(channels_name, devices_name, enron_mappings_name, enron_mapping_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "channels_devices_enronmappinggroups_enronmappings_enronalarms",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "enron_mappings_name",
+            "enron_mapping_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/enron_mapping_groups/{}/enron_mappings/{}/enron_alarms\".format(channels_name, devices_name, enron_mappings_name, enron_mapping_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "channels_devices_enronmappinggroups_enronmappings_enronalarms",
+        "params": [
+            "channels_name",
+            "enron_mapping_groups_name",
+            "enron_alarms_name",
+            "devices_name",
+            "enron_mappings_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/enron_mapping_groups/{}/enron_mappings/{}/enron_alarms/{}\".format(channels_name, enron_mapping_groups_name, enron_alarms_name, devices_name, enron_mappings_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "channels_devices_logixconfigs",
+        "params": [
+            "channels_name",
+            "devices_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/logix_configs\".format(channels_name, devices_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "channels_devices_logixconfigs",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "logix_configs_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/logix_configs/{}\".format(channels_name, devices_name, logix_configs_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "channels_devices_logixconfigs_logixaddresses",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "logix_configs_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/logix_configs/{}/logix_addresses\".format(channels_name, devices_name, logix_configs_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "channels_devices_logixconfigs_logixaddresses",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "logix_configs_name",
+            "logix_addresses_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/logix_configs/{}/logix_addresses/{}\".format(channels_name, devices_name, logix_configs_name, logix_addresses_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "channels_devices_metergroups",
+        "params": [
+            "channels_name",
+            "devices_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/meter_groups\".format(channels_name, devices_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "channels_devices_metergroups",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "meter_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/meter_groups/{}\".format(channels_name, devices_name, meter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "channels_devices_metergroups_abbtotalflowmeters",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "meter_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/meter_groups/{}/abb_totalflow_meters\".format(channels_name, devices_name, meter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "channels_devices_metergroups_abbtotalflowmeters",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "abb_totalflow_meters_name",
+            "meter_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/meter_groups/{}/abb_totalflow_meters/{}\".format(channels_name, devices_name, abb_totalflow_meters_name, meter_groups_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "channels_devices_metergroups_enronmeters",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "meter_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/meter_groups/{}/enron_meters\".format(channels_name, devices_name, meter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "channels_devices_metergroups_enronmeters",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "enron_meters_name",
+            "meter_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/meter_groups/{}/enron_meters/{}\".format(channels_name, devices_name, enron_meters_name, meter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "channels_devices_metergroups_fisherrocethernetmeters",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "meter_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/meter_groups/{}/fisher_roc_ethernet_meters\".format(channels_name, devices_name, meter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "channels_devices_metergroups_fisherrocethernetmeters",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "fisher_roc_ethernet_meters_name",
+            "meter_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/meter_groups/{}/fisher_roc_ethernet_meters/{}\".format(channels_name, devices_name, fisher_roc_ethernet_meters_name, meter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "channels_devices_metergroups_fisherrocserialmeters",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "meter_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/meter_groups/{}/fisher_roc_serial_meters\".format(channels_name, devices_name, meter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "channels_devices_metergroups_fisherrocserialmeters",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "fisher_roc_serial_meters_name",
+            "meter_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/meter_groups/{}/fisher_roc_serial_meters/{}\".format(channels_name, devices_name, fisher_roc_serial_meters_name, meter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "channels_devices_metergroups_fisherrocplusethernetmeters",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "meter_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/meter_groups/{}/fisher_rocplus_ethernet_meters\".format(channels_name, devices_name, meter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "channels_devices_metergroups_fisherrocplusethernetmeters",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "fisher_rocplus_ethernet_meters_name",
+            "meter_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/meter_groups/{}/fisher_rocplus_ethernet_meters/{}\".format(channels_name, devices_name, fisher_rocplus_ethernet_meters_name, meter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "channels_devices_metergroups_fisherrocplusserialmeters",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "meter_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/meter_groups/{}/fisher_rocplus_serial_meters\".format(channels_name, devices_name, meter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "channels_devices_metergroups_fisherrocplusserialmeters",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "fisher_rocplus_serial_meters_name",
+            "meter_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/meter_groups/{}/fisher_rocplus_serial_meters/{}\".format(channels_name, devices_name, fisher_rocplus_serial_meters_name, meter_groups_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "channels_devices_metergroups_meterorders",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "meter_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/meter_groups/{}/meter_orders\".format(channels_name, devices_name, meter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "channels_devices_metergroups_meterorders",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "meter_orders_name",
+            "meter_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/meter_groups/{}/meter_orders/{}\".format(channels_name, devices_name, meter_orders_name, meter_groups_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "channels_devices_metergroups_omnimeters",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "meter_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/meter_groups/{}/omni_meters\".format(channels_name, devices_name, meter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "channels_devices_metergroups_omnimeters",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "omni_meters_name",
+            "meter_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/meter_groups/{}/omni_meters/{}\".format(channels_name, devices_name, omni_meters_name, meter_groups_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "channels_devices_metergroups_simulatedmeters",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "meter_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/meter_groups/{}/simulated_meters\".format(channels_name, devices_name, meter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "channels_devices_metergroups_simulatedmeters",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "simulated_meters_name",
+            "meter_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/meter_groups/{}/simulated_meters/{}\".format(channels_name, devices_name, simulated_meters_name, meter_groups_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "channels_devices_nameresolutiongroups",
+        "params": [
+            "channels_name",
+            "devices_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/name_resolution_groups\".format(channels_name, devices_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "channels_devices_nameresolutiongroups",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "name_resolution_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/name_resolution_groups/{}\".format(channels_name, devices_name, name_resolution_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "channels_devices_nameresolutiongroups_nameresolutions",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "name_resolution_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/name_resolution_groups/{}/name_resolutions\".format(channels_name, devices_name, name_resolution_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "channels_devices_nameresolutiongroups_nameresolutions",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "name_resolutions_name",
+            "name_resolution_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/name_resolution_groups/{}/name_resolutions/{}\".format(channels_name, devices_name, name_resolutions_name, name_resolution_groups_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "channels_devices_omnimappinggroups",
+        "params": [
+            "channels_name",
+            "devices_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/omni_mapping_groups\".format(channels_name, devices_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "channels_devices_omnimappinggroups",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "omni_mapping_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/omni_mapping_groups/{}\".format(channels_name, devices_name, omni_mapping_groups_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "channels_devices_omnimappinggroups_omnimappings",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "omni_mapping_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/omni_mapping_groups/{}/omni_mappings\".format(channels_name, devices_name, omni_mapping_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "channels_devices_omnimappinggroups_omnimappings",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "omni_mapping_groups_name",
+            "omni_mappings_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/omni_mapping_groups/{}/omni_mappings/{}\".format(channels_name, devices_name, omni_mapping_groups_name, omni_mappings_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "channels_devices_omnimappinggroups_omnimappings_omnigasalarms",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "omni_mapping_groups_name",
+            "omni_mappings_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/omni_mapping_groups/{}/omni_mappings/{}/omni_gas_alarms\".format(channels_name, devices_name, omni_mapping_groups_name, omni_mappings_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "channels_devices_omnimappinggroups_omnimappings_omnigasalarms",
+        "params": [
+            "channels_name",
+            "omni_mapping_groups_name",
+            "omni_gas_alarms_name",
+            "omni_mappings_name",
+            "devices_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/omni_mapping_groups/{}/omni_mappings/{}/omni_gas_alarms/{}\".format(channels_name, omni_mapping_groups_name, omni_gas_alarms_name, omni_mappings_name, devices_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "channels_devices_omnimappinggroups_omnimappings_omniliquidalarms",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "omni_mapping_groups_name",
+            "omni_mappings_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/omni_mapping_groups/{}/omni_mappings/{}/omni_liquid_alarms\".format(channels_name, devices_name, omni_mapping_groups_name, omni_mappings_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "channels_devices_omnimappinggroups_omnimappings_omniliquidalarms",
+        "params": [
+            "channels_name",
+            "omni_mapping_groups_name",
+            "omni_mappings_name",
+            "devices_name",
+            "omni_liquid_alarms_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/omni_mapping_groups/{}/omni_mappings/{}/omni_liquid_alarms/{}\".format(channels_name, omni_mapping_groups_name, omni_mappings_name, devices_name, omni_liquid_alarms_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "channels_devices_producerexchangegroups",
+        "params": [
+            "channels_name",
+            "devices_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/producer_exchange_groups\".format(channels_name, devices_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "channels_devices_producerexchangegroups",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "producer_exchange_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/producer_exchange_groups/{}\".format(channels_name, devices_name, producer_exchange_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "channels_devices_producerexchangegroups_producerexchanges",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "producer_exchange_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/producer_exchange_groups/{}/producer_exchanges\".format(channels_name, devices_name, producer_exchange_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "channels_devices_producerexchangegroups_producerexchanges",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "producer_exchange_groups_name",
+            "producer_exchanges_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/producer_exchange_groups/{}/producer_exchanges/{}\".format(channels_name, devices_name, producer_exchange_groups_name, producer_exchanges_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "channels_devices_producerexchangegroups_producerexchanges_ranges",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "producer_exchange_groups_name",
+            "producer_exchanges_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/producer_exchange_groups/{}/producer_exchanges/{}/ranges\".format(channels_name, devices_name, producer_exchange_groups_name, producer_exchanges_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "channels_devices_producerexchangegroups_producerexchanges_ranges",
+        "params": [
+            "channels_name",
+            "ranges_name",
+            "producer_exchanges_name",
+            "devices_name",
+            "producer_exchange_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/producer_exchange_groups/{}/producer_exchanges/{}/ranges/{}\".format(channels_name, ranges_name, producer_exchanges_name, devices_name, producer_exchange_groups_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "channels_devices_services",
+        "params": [
+            "channels_name",
+            "devices_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/services\".format(channels_name, devices_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "channels_devices_services",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "services_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/services/{}\".format(channels_name, devices_name, services_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "channels_devices_services_jobs",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "services_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/services/{}/jobs\".format(channels_name, devices_name, services_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "channels_devices_services_jobs",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "services_name",
+            "jobs_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/services/{}/jobs/{}\".format(channels_name, devices_name, services_name, jobs_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "channels_devices_services_jobs_results",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "services_name",
+            "jobs_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/services/{}/jobs/{}/results\".format(channels_name, devices_name, services_name, jobs_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "channels_devices_services_jobs_results",
+        "params": [
+            "channels_name",
+            "services_name",
+            "results_name",
+            "jobs_name",
+            "devices_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/services/{}/jobs/{}/results/{}\".format(channels_name, services_name, results_name, jobs_name, devices_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "channels_devices_services_jobs_results_readonlytags",
+        "params": [
+            "channels_name",
+            "services_name",
+            "results_name",
+            "jobs_name",
+            "devices_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/services/{}/jobs/{}/results/{}/readonly_tags\".format(channels_name, services_name, results_name, jobs_name, devices_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "channels_devices_services_jobs_results_readonlytags",
+        "params": [
+            "channels_name",
+            "readonly_tags_name",
+            "services_name",
+            "results_name",
+            "jobs_name",
+            "devices_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/services/{}/jobs/{}/results/{}/readonly_tags/{}\".format(channels_name, readonly_tags_name, services_name, results_name, jobs_name, devices_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "channels_devices_taggroups",
+        "params": [
+            "channels_name",
+            "devices_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/tag_groups\".format(channels_name, devices_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "channels_devices_taggroups",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "tag_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/tag_groups/{}\".format(channels_name, devices_name, tag_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "channels_devices_taggroups_taggroups",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "tag_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/tag_groups/{}/tag_groups\".format(channels_name, devices_name, tag_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "channels_devices_taggroups_taggroups",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "tag_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/tag_groups/{}/tag_groups/{}\".format(channels_name, devices_name, tag_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "channels_devices_taggroups_tags",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "tag_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/tag_groups/{}/tags\".format(channels_name, devices_name, tag_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "channels_devices_taggroups_tags",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "tags_name",
+            "tag_groups_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/tag_groups/{}/tags/{}\".format(channels_name, devices_name, tags_name, tag_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "channels_devices_tags",
+        "params": [
+            "channels_name",
+            "devices_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/tags\".format(channels_name, devices_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "channels_devices_tags",
+        "params": [
+            "channels_name",
+            "devices_name",
+            "tags_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/devices/{}/tags/{}\".format(channels_name, devices_name, tags_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "channels_phonebooks",
+        "params": [
+            "channels_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/phonebooks\".format(channels_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "channels_phonebooks",
+        "params": [
+            "channels_name",
+            "phonebooks_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/phonebooks/{}\".format(channels_name, phonebooks_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "channels_phonebooks_phonelist",
+        "params": [
+            "channels_name",
+            "phonebooks_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/phonebooks/{}/phonelist\".format(channels_name, phonebooks_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "channels_phonebooks_phonelist",
+        "params": [
+            "channels_name",
+            "phonelist_name",
+            "phonebooks_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/phonebooks/{}/phonelist/{}\".format(channels_name, phonelist_name, phonebooks_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "channels_phonebooks_phonepriorities",
+        "params": [
+            "channels_name",
+            "phonebooks_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/phonebooks/{}/phonepriorities\".format(channels_name, phonebooks_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "channels_phonebooks_phonepriorities",
+        "params": [
+            "channels_name",
+            "phonepriorities_name",
+            "phonebooks_name"
+        ],
+        "path": "\"/config/v1/project/channels/{}/phonebooks/{}/phonepriorities/{}\".format(channels_name, phonepriorities_name, phonebooks_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "clientinterfaces",
+        "params": [],
+        "path": "\"/config/v1/project/client_interfaces\".format()"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "clientinterfaces",
+        "params": [
+            "client_interfaces_name"
+        ],
+        "path": "\"/config/v1/project/client_interfaces/{}\".format(client_interfaces_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "services",
+        "params": [],
+        "path": "\"/config/v1/project/services\".format()"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "services",
+        "params": [
+            "services_name"
+        ],
+        "path": "\"/config/v1/project/services/{}\".format(services_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "services_jobs",
+        "params": [
+            "services_name"
+        ],
+        "path": "\"/config/v1/project/services/{}/jobs\".format(services_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "services_jobs",
+        "params": [
+            "services_name",
+            "jobs_name"
+        ],
+        "path": "\"/config/v1/project/services/{}/jobs/{}\".format(services_name, jobs_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "services_jobs_results",
+        "params": [
+            "services_name",
+            "jobs_name"
+        ],
+        "path": "\"/config/v1/project/services/{}/jobs/{}/results\".format(services_name, jobs_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "services_jobs_results",
+        "params": [
+            "results_name",
+            "services_name",
+            "jobs_name"
+        ],
+        "path": "\"/config/v1/project/services/{}/jobs/{}/results/{}\".format(results_name, services_name, jobs_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "services_jobs_results_readonlytags",
+        "params": [
+            "results_name",
+            "services_name",
+            "jobs_name"
+        ],
+        "path": "\"/config/v1/project/services/{}/jobs/{}/results/{}/readonly_tags\".format(results_name, services_name, jobs_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "services_jobs_results_readonlytags",
+        "params": [
+            "readonly_tags_name",
+            "results_name",
+            "services_name",
+            "jobs_name"
+        ],
+        "path": "\"/config/v1/project/services/{}/jobs/{}/results/{}/readonly_tags/{}\".format(readonly_tags_name, results_name, services_name, jobs_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "uconglobaldata",
+        "params": [],
+        "path": "\"/config/v1/project/uconglobaldata\".format()"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "uconglobaldata",
+        "params": [
+            "uconglobaldata_name"
+        ],
+        "path": "\"/config/v1/project/uconglobaldata/{}\".format(uconglobaldata_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "efmexporter",
+        "params": [],
+        "path": "\"/config/v1/project/_efmexporter\".format()"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups",
+        "params": [],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups\".format()"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups",
+        "params": [
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}\".format(poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups",
+        "params": [
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups\".format(poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups",
+        "params": [
+            "efm_meter_groups_name",
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}\".format(efm_meter_groups_name, poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups",
+        "params": [
+            "efm_meter_groups_name",
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups\".format(efm_meter_groups_name, poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups",
+        "params": [
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}\".format(efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_flowcalexporters",
+        "params": [
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/flow_cal_exporters\".format(efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_flowcalexporters",
+        "params": [
+            "flow_cal_exporters_name",
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/flow_cal_exporters/{}\".format(flow_cal_exporters_name, efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_flowcaltxqexporters",
+        "params": [
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/flow_cal_txq_exporters\".format(efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_flowcaltxqexporters",
+        "params": [
+            "flow_cal_txq_exporters_name",
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/flow_cal_txq_exporters/{}\".format(flow_cal_txq_exporters_name, efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gascsvexporters",
+        "params": [
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_csv_exporters\".format(efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gascsvexporters",
+        "params": [
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name",
+            "gas_csv_exporters_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_csv_exporters/{}\".format(efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name, gas_csv_exporters_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gascsvexporters_csvalarmgroups",
+        "params": [
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name",
+            "gas_csv_exporters_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_csv_exporters/{}/csv_alarm_groups\".format(efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name, gas_csv_exporters_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gascsvexporters_csvalarmgroups",
+        "params": [
+            "efm_meter_groups_name",
+            "csv_alarm_groups_name",
+            "efm_exporter_groups_name",
+            "gas_csv_exporters_name",
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_csv_exporters/{}/csv_alarm_groups/{}\".format(efm_meter_groups_name, csv_alarm_groups_name, efm_exporter_groups_name, gas_csv_exporters_name, poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gascsvexporters_csvalarmgroups_csvalarmmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "csv_alarm_groups_name",
+            "efm_exporter_groups_name",
+            "gas_csv_exporters_name",
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_csv_exporters/{}/csv_alarm_groups/{}/csv_alarm_mappings\".format(efm_meter_groups_name, csv_alarm_groups_name, efm_exporter_groups_name, gas_csv_exporters_name, poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gascsvexporters_csvalarmgroups_csvalarmmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "csv_alarm_groups_name",
+            "efm_exporter_groups_name",
+            "gas_csv_exporters_name",
+            "poll_groups_name",
+            "csv_alarm_mappings_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_csv_exporters/{}/csv_alarm_groups/{}/csv_alarm_mappings/{}\".format(efm_meter_groups_name, csv_alarm_groups_name, efm_exporter_groups_name, gas_csv_exporters_name, poll_groups_name, csv_alarm_mappings_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gascsvexporters_csvconfiggasgroups",
+        "params": [
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name",
+            "gas_csv_exporters_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_csv_exporters/{}/csv_config_gas_groups\".format(efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name, gas_csv_exporters_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gascsvexporters_csvconfiggasgroups",
+        "params": [
+            "efm_meter_groups_name",
+            "efm_exporter_groups_name",
+            "gas_csv_exporters_name",
+            "poll_groups_name",
+            "csv_config_gas_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_csv_exporters/{}/csv_config_gas_groups/{}\".format(efm_meter_groups_name, efm_exporter_groups_name, gas_csv_exporters_name, poll_groups_name, csv_config_gas_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gascsvexporters_csvconfiggasgroups_csvconfiggasmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "efm_exporter_groups_name",
+            "gas_csv_exporters_name",
+            "poll_groups_name",
+            "csv_config_gas_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_csv_exporters/{}/csv_config_gas_groups/{}/csv_config_gas_mappings\".format(efm_meter_groups_name, efm_exporter_groups_name, gas_csv_exporters_name, poll_groups_name, csv_config_gas_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gascsvexporters_csvconfiggasgroups_csvconfiggasmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "efm_exporter_groups_name",
+            "gas_csv_exporters_name",
+            "poll_groups_name",
+            "csv_config_gas_groups_name",
+            "csv_config_gas_mappings_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_csv_exporters/{}/csv_config_gas_groups/{}/csv_config_gas_mappings/{}\".format(efm_meter_groups_name, efm_exporter_groups_name, gas_csv_exporters_name, poll_groups_name, csv_config_gas_groups_name, csv_config_gas_mappings_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gascsvexporters_csveventgroups",
+        "params": [
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name",
+            "gas_csv_exporters_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_csv_exporters/{}/csv_event_groups\".format(efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name, gas_csv_exporters_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gascsvexporters_csveventgroups",
+        "params": [
+            "efm_meter_groups_name",
+            "csv_event_groups_name",
+            "efm_exporter_groups_name",
+            "gas_csv_exporters_name",
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_csv_exporters/{}/csv_event_groups/{}\".format(efm_meter_groups_name, csv_event_groups_name, efm_exporter_groups_name, gas_csv_exporters_name, poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gascsvexporters_csveventgroups_csveventmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "csv_event_groups_name",
+            "efm_exporter_groups_name",
+            "gas_csv_exporters_name",
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_csv_exporters/{}/csv_event_groups/{}/csv_event_mappings\".format(efm_meter_groups_name, csv_event_groups_name, efm_exporter_groups_name, gas_csv_exporters_name, poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gascsvexporters_csveventgroups_csveventmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "csv_event_groups_name",
+            "efm_exporter_groups_name",
+            "gas_csv_exporters_name",
+            "poll_groups_name",
+            "csv_event_mappings_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_csv_exporters/{}/csv_event_groups/{}/csv_event_mappings/{}\".format(efm_meter_groups_name, csv_event_groups_name, efm_exporter_groups_name, gas_csv_exporters_name, poll_groups_name, csv_event_mappings_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gascsvexporters_csvhistorygasgroups",
+        "params": [
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name",
+            "gas_csv_exporters_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_csv_exporters/{}/csv_history_gas_groups\".format(efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name, gas_csv_exporters_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gascsvexporters_csvhistorygasgroups",
+        "params": [
+            "efm_meter_groups_name",
+            "efm_exporter_groups_name",
+            "gas_csv_exporters_name",
+            "poll_groups_name",
+            "csv_history_gas_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_csv_exporters/{}/csv_history_gas_groups/{}\".format(efm_meter_groups_name, efm_exporter_groups_name, gas_csv_exporters_name, poll_groups_name, csv_history_gas_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gascsvexporters_csvhistorygasgroups_csvhistorygasmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "efm_exporter_groups_name",
+            "gas_csv_exporters_name",
+            "poll_groups_name",
+            "csv_history_gas_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_csv_exporters/{}/csv_history_gas_groups/{}/csv_history_gas_mappings\".format(efm_meter_groups_name, efm_exporter_groups_name, gas_csv_exporters_name, poll_groups_name, csv_history_gas_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gascsvexporters_csvhistorygasgroups_csvhistorygasmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "efm_exporter_groups_name",
+            "gas_csv_exporters_name",
+            "poll_groups_name",
+            "csv_history_gas_groups_name",
+            "csv_history_gas_mappings_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_csv_exporters/{}/csv_history_gas_groups/{}/csv_history_gas_mappings/{}\".format(efm_meter_groups_name, efm_exporter_groups_name, gas_csv_exporters_name, poll_groups_name, csv_history_gas_groups_name, csv_history_gas_mappings_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gasdatabaseexporters",
+        "params": [
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_database_exporters\".format(efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gasdatabaseexporters",
+        "params": [
+            "gas_database_exporters_name",
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_database_exporters/{}\".format(gas_database_exporters_name, efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gasdatabaseexporters_databasealarmgroups",
+        "params": [
+            "gas_database_exporters_name",
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_database_exporters/{}/database_alarm_groups\".format(gas_database_exporters_name, efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gasdatabaseexporters_databasealarmgroups",
+        "params": [
+            "efm_meter_groups_name",
+            "gas_database_exporters_name",
+            "efm_exporter_groups_name",
+            "database_alarm_groups_name",
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_database_exporters/{}/database_alarm_groups/{}\".format(efm_meter_groups_name, gas_database_exporters_name, efm_exporter_groups_name, database_alarm_groups_name, poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gasdatabaseexporters_databasealarmgroups_databasealarmmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "gas_database_exporters_name",
+            "efm_exporter_groups_name",
+            "database_alarm_groups_name",
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_database_exporters/{}/database_alarm_groups/{}/database_alarm_mappings\".format(efm_meter_groups_name, gas_database_exporters_name, efm_exporter_groups_name, database_alarm_groups_name, poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gasdatabaseexporters_databasealarmgroups_databasealarmmappings",
+        "params": [
+            "database_alarm_mappings_name",
+            "efm_meter_groups_name",
+            "gas_database_exporters_name",
+            "efm_exporter_groups_name",
+            "database_alarm_groups_name",
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_database_exporters/{}/database_alarm_groups/{}/database_alarm_mappings/{}\".format(database_alarm_mappings_name, efm_meter_groups_name, gas_database_exporters_name, efm_exporter_groups_name, database_alarm_groups_name, poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gasdatabaseexporters_databaseconfiggasgroups",
+        "params": [
+            "gas_database_exporters_name",
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_database_exporters/{}/database_config_gas_groups\".format(gas_database_exporters_name, efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gasdatabaseexporters_databaseconfiggasgroups",
+        "params": [
+            "efm_meter_groups_name",
+            "gas_database_exporters_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "database_config_gas_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_database_exporters/{}/database_config_gas_groups/{}\".format(efm_meter_groups_name, gas_database_exporters_name, efm_exporter_groups_name, poll_groups_name, database_config_gas_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gasdatabaseexporters_databaseconfiggasgroups_databaseconfiggasmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "gas_database_exporters_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "database_config_gas_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_database_exporters/{}/database_config_gas_groups/{}/database_config_gas_mappings\".format(efm_meter_groups_name, gas_database_exporters_name, efm_exporter_groups_name, poll_groups_name, database_config_gas_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gasdatabaseexporters_databaseconfiggasgroups_databaseconfiggasmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "gas_database_exporters_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "database_config_gas_mappings_name",
+            "database_config_gas_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_database_exporters/{}/database_config_gas_groups/{}/database_config_gas_mappings/{}\".format(efm_meter_groups_name, gas_database_exporters_name, efm_exporter_groups_name, poll_groups_name, database_config_gas_mappings_name, database_config_gas_groups_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gasdatabaseexporters_databaseeventgroups",
+        "params": [
+            "gas_database_exporters_name",
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_database_exporters/{}/database_event_groups\".format(gas_database_exporters_name, efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gasdatabaseexporters_databaseeventgroups",
+        "params": [
+            "efm_meter_groups_name",
+            "database_event_groups_name",
+            "gas_database_exporters_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_database_exporters/{}/database_event_groups/{}\".format(efm_meter_groups_name, database_event_groups_name, gas_database_exporters_name, efm_exporter_groups_name, poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gasdatabaseexporters_databaseeventgroups_databaseeventmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "database_event_groups_name",
+            "gas_database_exporters_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_database_exporters/{}/database_event_groups/{}/database_event_mappings\".format(efm_meter_groups_name, database_event_groups_name, gas_database_exporters_name, efm_exporter_groups_name, poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gasdatabaseexporters_databaseeventgroups_databaseeventmappings",
+        "params": [
+            "database_event_mappings_name",
+            "efm_meter_groups_name",
+            "database_event_groups_name",
+            "gas_database_exporters_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_database_exporters/{}/database_event_groups/{}/database_event_mappings/{}\".format(database_event_mappings_name, efm_meter_groups_name, database_event_groups_name, gas_database_exporters_name, efm_exporter_groups_name, poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gasdatabaseexporters_databasehistorygasgroups",
+        "params": [
+            "gas_database_exporters_name",
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_database_exporters/{}/database_history_gas_groups\".format(gas_database_exporters_name, efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gasdatabaseexporters_databasehistorygasgroups",
+        "params": [
+            "efm_meter_groups_name",
+            "gas_database_exporters_name",
+            "efm_exporter_groups_name",
+            "database_history_gas_groups_name",
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_database_exporters/{}/database_history_gas_groups/{}\".format(efm_meter_groups_name, gas_database_exporters_name, efm_exporter_groups_name, database_history_gas_groups_name, poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gasdatabaseexporters_databasehistorygasgroups_databasehistorygasmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "gas_database_exporters_name",
+            "efm_exporter_groups_name",
+            "database_history_gas_groups_name",
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_database_exporters/{}/database_history_gas_groups/{}/database_history_gas_mappings\".format(efm_meter_groups_name, gas_database_exporters_name, efm_exporter_groups_name, database_history_gas_groups_name, poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_gasdatabaseexporters_databasehistorygasgroups_databasehistorygasmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "gas_database_exporters_name",
+            "database_history_gas_mappings_name",
+            "efm_exporter_groups_name",
+            "database_history_gas_groups_name",
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/gas_database_exporters/{}/database_history_gas_groups/{}/database_history_gas_mappings/{}\".format(efm_meter_groups_name, gas_database_exporters_name, database_history_gas_mappings_name, efm_exporter_groups_name, database_history_gas_groups_name, poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters",
+        "params": [
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters\".format(efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters",
+        "params": [
+            "liquid_csv_exporters_name",
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters/{}\".format(liquid_csv_exporters_name, efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters_csvalarmgroups",
+        "params": [
+            "liquid_csv_exporters_name",
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters/{}/csv_alarm_groups\".format(liquid_csv_exporters_name, efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters_csvalarmgroups",
+        "params": [
+            "efm_meter_groups_name",
+            "csv_alarm_groups_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "liquid_csv_exporters_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters/{}/csv_alarm_groups/{}\".format(efm_meter_groups_name, csv_alarm_groups_name, efm_exporter_groups_name, poll_groups_name, liquid_csv_exporters_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters_csvalarmgroups_csvalarmmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "csv_alarm_groups_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "liquid_csv_exporters_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters/{}/csv_alarm_groups/{}/csv_alarm_mappings\".format(efm_meter_groups_name, csv_alarm_groups_name, efm_exporter_groups_name, poll_groups_name, liquid_csv_exporters_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters_csvalarmgroups_csvalarmmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "csv_alarm_groups_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "csv_alarm_mappings_name",
+            "liquid_csv_exporters_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters/{}/csv_alarm_groups/{}/csv_alarm_mappings/{}\".format(efm_meter_groups_name, csv_alarm_groups_name, efm_exporter_groups_name, poll_groups_name, csv_alarm_mappings_name, liquid_csv_exporters_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters_csvbatchgroups",
+        "params": [
+            "liquid_csv_exporters_name",
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters/{}/csv_batch_groups\".format(liquid_csv_exporters_name, efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters_csvbatchgroups",
+        "params": [
+            "efm_meter_groups_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "liquid_csv_exporters_name",
+            "csv_batch_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters/{}/csv_batch_groups/{}\".format(efm_meter_groups_name, efm_exporter_groups_name, poll_groups_name, liquid_csv_exporters_name, csv_batch_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters_csvbatchgroups_csvbatchmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "liquid_csv_exporters_name",
+            "csv_batch_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters/{}/csv_batch_groups/{}/csv_batch_mappings\".format(efm_meter_groups_name, efm_exporter_groups_name, poll_groups_name, liquid_csv_exporters_name, csv_batch_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters_csvbatchgroups_csvbatchmappings",
+        "params": [
+            "csv_batch_mappings_name",
+            "efm_meter_groups_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "liquid_csv_exporters_name",
+            "csv_batch_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters/{}/csv_batch_groups/{}/csv_batch_mappings/{}\".format(csv_batch_mappings_name, efm_meter_groups_name, efm_exporter_groups_name, poll_groups_name, liquid_csv_exporters_name, csv_batch_groups_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters_csvconfigliquidgroups",
+        "params": [
+            "liquid_csv_exporters_name",
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters/{}/csv_config_liquid_groups\".format(liquid_csv_exporters_name, efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters_csvconfigliquidgroups",
+        "params": [
+            "efm_meter_groups_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "csv_config_liquid_groups_name",
+            "liquid_csv_exporters_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters/{}/csv_config_liquid_groups/{}\".format(efm_meter_groups_name, efm_exporter_groups_name, poll_groups_name, csv_config_liquid_groups_name, liquid_csv_exporters_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters_csvconfigliquidgroups_csvconfigliquidmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "csv_config_liquid_groups_name",
+            "liquid_csv_exporters_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters/{}/csv_config_liquid_groups/{}/csv_config_liquid_mappings\".format(efm_meter_groups_name, efm_exporter_groups_name, poll_groups_name, csv_config_liquid_groups_name, liquid_csv_exporters_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters_csvconfigliquidgroups_csvconfigliquidmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "efm_exporter_groups_name",
+            "csv_config_liquid_mappings_name",
+            "poll_groups_name",
+            "csv_config_liquid_groups_name",
+            "liquid_csv_exporters_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters/{}/csv_config_liquid_groups/{}/csv_config_liquid_mappings/{}\".format(efm_meter_groups_name, efm_exporter_groups_name, csv_config_liquid_mappings_name, poll_groups_name, csv_config_liquid_groups_name, liquid_csv_exporters_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters_csveventgroups",
+        "params": [
+            "liquid_csv_exporters_name",
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters/{}/csv_event_groups\".format(liquid_csv_exporters_name, efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters_csveventgroups",
+        "params": [
+            "efm_meter_groups_name",
+            "csv_event_groups_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "liquid_csv_exporters_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters/{}/csv_event_groups/{}\".format(efm_meter_groups_name, csv_event_groups_name, efm_exporter_groups_name, poll_groups_name, liquid_csv_exporters_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters_csveventgroups_csveventmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "csv_event_groups_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "liquid_csv_exporters_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters/{}/csv_event_groups/{}/csv_event_mappings\".format(efm_meter_groups_name, csv_event_groups_name, efm_exporter_groups_name, poll_groups_name, liquid_csv_exporters_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters_csveventgroups_csveventmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "csv_event_groups_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "liquid_csv_exporters_name",
+            "csv_event_mappings_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters/{}/csv_event_groups/{}/csv_event_mappings/{}\".format(efm_meter_groups_name, csv_event_groups_name, efm_exporter_groups_name, poll_groups_name, liquid_csv_exporters_name, csv_event_mappings_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters_csvhistoryliquidgroups",
+        "params": [
+            "liquid_csv_exporters_name",
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters/{}/csv_history_liquid_groups\".format(liquid_csv_exporters_name, efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters_csvhistoryliquidgroups",
+        "params": [
+            "efm_meter_groups_name",
+            "csv_history_liquid_groups_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "liquid_csv_exporters_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters/{}/csv_history_liquid_groups/{}\".format(efm_meter_groups_name, csv_history_liquid_groups_name, efm_exporter_groups_name, poll_groups_name, liquid_csv_exporters_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters_csvhistoryliquidgroups_csvhistoryliquidmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "csv_history_liquid_groups_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "liquid_csv_exporters_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters/{}/csv_history_liquid_groups/{}/csv_history_liquid_mappings\".format(efm_meter_groups_name, csv_history_liquid_groups_name, efm_exporter_groups_name, poll_groups_name, liquid_csv_exporters_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters_csvhistoryliquidgroups_csvhistoryliquidmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "csv_history_liquid_groups_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "liquid_csv_exporters_name",
+            "csv_history_liquid_mappings_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters/{}/csv_history_liquid_groups/{}/csv_history_liquid_mappings/{}\".format(efm_meter_groups_name, csv_history_liquid_groups_name, efm_exporter_groups_name, poll_groups_name, liquid_csv_exporters_name, csv_history_liquid_mappings_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters_csvliquidproductgroups",
+        "params": [
+            "liquid_csv_exporters_name",
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters/{}/csv_liquid_product_groups\".format(liquid_csv_exporters_name, efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters_csvliquidproductgroups",
+        "params": [
+            "csv_liquid_product_groups_name",
+            "efm_meter_groups_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "liquid_csv_exporters_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters/{}/csv_liquid_product_groups/{}\".format(csv_liquid_product_groups_name, efm_meter_groups_name, efm_exporter_groups_name, poll_groups_name, liquid_csv_exporters_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters_csvliquidproductgroups_csvliquidproductmappings",
+        "params": [
+            "csv_liquid_product_groups_name",
+            "efm_meter_groups_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "liquid_csv_exporters_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters/{}/csv_liquid_product_groups/{}/csv_liquid_product_mappings\".format(csv_liquid_product_groups_name, efm_meter_groups_name, efm_exporter_groups_name, poll_groups_name, liquid_csv_exporters_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquidcsvexporters_csvliquidproductgroups_csvliquidproductmappings",
+        "params": [
+            "csv_liquid_product_groups_name",
+            "efm_meter_groups_name",
+            "csv_liquid_product_mappings_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "liquid_csv_exporters_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_csv_exporters/{}/csv_liquid_product_groups/{}/csv_liquid_product_mappings/{}\".format(csv_liquid_product_groups_name, efm_meter_groups_name, csv_liquid_product_mappings_name, efm_exporter_groups_name, poll_groups_name, liquid_csv_exporters_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters",
+        "params": [
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters\".format(efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters",
+        "params": [
+            "liquid_database_exporters_name",
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters/{}\".format(liquid_database_exporters_name, efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters_databasealarmgroups",
+        "params": [
+            "liquid_database_exporters_name",
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters/{}/database_alarm_groups\".format(liquid_database_exporters_name, efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters_databasealarmgroups",
+        "params": [
+            "efm_meter_groups_name",
+            "liquid_database_exporters_name",
+            "efm_exporter_groups_name",
+            "database_alarm_groups_name",
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters/{}/database_alarm_groups/{}\".format(efm_meter_groups_name, liquid_database_exporters_name, efm_exporter_groups_name, database_alarm_groups_name, poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters_databasealarmgroups_databasealarmmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "liquid_database_exporters_name",
+            "efm_exporter_groups_name",
+            "database_alarm_groups_name",
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters/{}/database_alarm_groups/{}/database_alarm_mappings\".format(efm_meter_groups_name, liquid_database_exporters_name, efm_exporter_groups_name, database_alarm_groups_name, poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters_databasealarmgroups_databasealarmmappings",
+        "params": [
+            "database_alarm_mappings_name",
+            "efm_meter_groups_name",
+            "liquid_database_exporters_name",
+            "efm_exporter_groups_name",
+            "database_alarm_groups_name",
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters/{}/database_alarm_groups/{}/database_alarm_mappings/{}\".format(database_alarm_mappings_name, efm_meter_groups_name, liquid_database_exporters_name, efm_exporter_groups_name, database_alarm_groups_name, poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters_databasebatchgroups",
+        "params": [
+            "liquid_database_exporters_name",
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters/{}/database_batch_groups\".format(liquid_database_exporters_name, efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters_databasebatchgroups",
+        "params": [
+            "efm_meter_groups_name",
+            "liquid_database_exporters_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "database_batch_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters/{}/database_batch_groups/{}\".format(efm_meter_groups_name, liquid_database_exporters_name, efm_exporter_groups_name, poll_groups_name, database_batch_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters_databasebatchgroups_databasebatchmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "liquid_database_exporters_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "database_batch_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters/{}/database_batch_groups/{}/database_batch_mappings\".format(efm_meter_groups_name, liquid_database_exporters_name, efm_exporter_groups_name, poll_groups_name, database_batch_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters_databasebatchgroups_databasebatchmappings",
+        "params": [
+            "database_batch_mappings_name",
+            "efm_meter_groups_name",
+            "liquid_database_exporters_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "database_batch_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters/{}/database_batch_groups/{}/database_batch_mappings/{}\".format(database_batch_mappings_name, efm_meter_groups_name, liquid_database_exporters_name, efm_exporter_groups_name, poll_groups_name, database_batch_groups_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters_databaseconfigliquidgroups",
+        "params": [
+            "liquid_database_exporters_name",
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters/{}/database_config_liquid_groups\".format(liquid_database_exporters_name, efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters_databaseconfigliquidgroups",
+        "params": [
+            "efm_meter_groups_name",
+            "database_config_liquid_groups_name",
+            "liquid_database_exporters_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters/{}/database_config_liquid_groups/{}\".format(efm_meter_groups_name, database_config_liquid_groups_name, liquid_database_exporters_name, efm_exporter_groups_name, poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters_databaseconfigliquidgroups_databaseconfigliquidmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "database_config_liquid_groups_name",
+            "liquid_database_exporters_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters/{}/database_config_liquid_groups/{}/database_config_liquid_mappings\".format(efm_meter_groups_name, database_config_liquid_groups_name, liquid_database_exporters_name, efm_exporter_groups_name, poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters_databaseconfigliquidgroups_databaseconfigliquidmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "database_config_liquid_groups_name",
+            "liquid_database_exporters_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "database_config_liquid_mappings_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters/{}/database_config_liquid_groups/{}/database_config_liquid_mappings/{}\".format(efm_meter_groups_name, database_config_liquid_groups_name, liquid_database_exporters_name, efm_exporter_groups_name, poll_groups_name, database_config_liquid_mappings_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters_databaseeventgroups",
+        "params": [
+            "liquid_database_exporters_name",
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters/{}/database_event_groups\".format(liquid_database_exporters_name, efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters_databaseeventgroups",
+        "params": [
+            "efm_meter_groups_name",
+            "database_event_groups_name",
+            "liquid_database_exporters_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters/{}/database_event_groups/{}\".format(efm_meter_groups_name, database_event_groups_name, liquid_database_exporters_name, efm_exporter_groups_name, poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters_databaseeventgroups_databaseeventmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "database_event_groups_name",
+            "liquid_database_exporters_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters/{}/database_event_groups/{}/database_event_mappings\".format(efm_meter_groups_name, database_event_groups_name, liquid_database_exporters_name, efm_exporter_groups_name, poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters_databaseeventgroups_databaseeventmappings",
+        "params": [
+            "database_event_mappings_name",
+            "efm_meter_groups_name",
+            "database_event_groups_name",
+            "liquid_database_exporters_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters/{}/database_event_groups/{}/database_event_mappings/{}\".format(database_event_mappings_name, efm_meter_groups_name, database_event_groups_name, liquid_database_exporters_name, efm_exporter_groups_name, poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters_databasehistoryliquidgroups",
+        "params": [
+            "liquid_database_exporters_name",
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters/{}/database_history_liquid_groups\".format(liquid_database_exporters_name, efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters_databasehistoryliquidgroups",
+        "params": [
+            "efm_meter_groups_name",
+            "liquid_database_exporters_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "database_history_liquid_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters/{}/database_history_liquid_groups/{}\".format(efm_meter_groups_name, liquid_database_exporters_name, efm_exporter_groups_name, poll_groups_name, database_history_liquid_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters_databasehistoryliquidgroups_databasehistoryliquidmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "liquid_database_exporters_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "database_history_liquid_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters/{}/database_history_liquid_groups/{}/database_history_liquid_mappings\".format(efm_meter_groups_name, liquid_database_exporters_name, efm_exporter_groups_name, poll_groups_name, database_history_liquid_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters_databasehistoryliquidgroups_databasehistoryliquidmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "liquid_database_exporters_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "database_history_liquid_mappings_name",
+            "database_history_liquid_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters/{}/database_history_liquid_groups/{}/database_history_liquid_mappings/{}\".format(efm_meter_groups_name, liquid_database_exporters_name, efm_exporter_groups_name, poll_groups_name, database_history_liquid_mappings_name, database_history_liquid_groups_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters_databaseliquidproductgroups",
+        "params": [
+            "liquid_database_exporters_name",
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters/{}/database_liquid_product_groups\".format(liquid_database_exporters_name, efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters_databaseliquidproductgroups",
+        "params": [
+            "efm_meter_groups_name",
+            "liquid_database_exporters_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "database_liquid_product_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters/{}/database_liquid_product_groups/{}\".format(efm_meter_groups_name, liquid_database_exporters_name, efm_exporter_groups_name, poll_groups_name, database_liquid_product_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters_databaseliquidproductgroups_databaseliquidproductmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "liquid_database_exporters_name",
+            "efm_exporter_groups_name",
+            "poll_groups_name",
+            "database_liquid_product_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters/{}/database_liquid_product_groups/{}/database_liquid_product_mappings\".format(efm_meter_groups_name, liquid_database_exporters_name, efm_exporter_groups_name, poll_groups_name, database_liquid_product_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_liquiddatabaseexporters_databaseliquidproductgroups_databaseliquidproductmappings",
+        "params": [
+            "efm_meter_groups_name",
+            "liquid_database_exporters_name",
+            "efm_exporter_groups_name",
+            "database_liquid_product_mappings_name",
+            "poll_groups_name",
+            "database_liquid_product_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/liquid_database_exporters/{}/database_liquid_product_groups/{}/database_liquid_product_mappings/{}\".format(efm_meter_groups_name, liquid_database_exporters_name, efm_exporter_groups_name, database_liquid_product_mappings_name, poll_groups_name, database_liquid_product_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_pgasexporters",
+        "params": [
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/pgas_exporters\".format(efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmexportergroups_pgasexporters",
+        "params": [
+            "pgas_exporters_name",
+            "efm_meter_groups_name",
+            "poll_groups_name",
+            "efm_exporter_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_exporter_groups/{}/pgas_exporters/{}\".format(pgas_exporters_name, efm_meter_groups_name, poll_groups_name, efm_exporter_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmmeters",
+        "params": [
+            "efm_meter_groups_name",
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_meters\".format(efm_meter_groups_name, poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "efmexporter_pollgroups_efmmetergroups_efmmeters",
+        "params": [
+            "efm_meters_name",
+            "efm_meter_groups_name",
+            "poll_groups_name"
+        ],
+        "path": "\"/config/v1/project/_efmexporter/poll_groups/{}/efm_meter_groups/{}/efm_meters/{}\".format(efm_meters_name, efm_meter_groups_name, poll_groups_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "iotgateway",
+        "params": [],
+        "path": "\"/config/v1/project/_iot_gateway\".format()"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "iotgateway_mqttclients",
+        "params": [],
+        "path": "\"/config/v1/project/_iot_gateway/mqtt_clients\".format()"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "iotgateway_mqttclients",
+        "params": [
+            "mqtt_clients_name"
+        ],
+        "path": "\"/config/v1/project/_iot_gateway/mqtt_clients/{}\".format(mqtt_clients_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "iotgateway_mqttclients_iotitems",
+        "params": [
+            "mqtt_clients_name"
+        ],
+        "path": "\"/config/v1/project/_iot_gateway/mqtt_clients/{}/iot_items\".format(mqtt_clients_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "iotgateway_mqttclients_iotitems",
+        "params": [
+            "mqtt_clients_name",
+            "iot_items_name"
+        ],
+        "path": "\"/config/v1/project/_iot_gateway/mqtt_clients/{}/iot_items/{}\".format(mqtt_clients_name, iot_items_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "iotgateway_restclients",
+        "params": [],
+        "path": "\"/config/v1/project/_iot_gateway/rest_clients\".format()"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "iotgateway_restclients",
+        "params": [
+            "rest_clients_name"
+        ],
+        "path": "\"/config/v1/project/_iot_gateway/rest_clients/{}\".format(rest_clients_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "iotgateway_restclients_iotitems",
+        "params": [
+            "rest_clients_name"
+        ],
+        "path": "\"/config/v1/project/_iot_gateway/rest_clients/{}/iot_items\".format(rest_clients_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "iotgateway_restclients_iotitems",
+        "params": [
+            "rest_clients_name",
+            "iot_items_name"
+        ],
+        "path": "\"/config/v1/project/_iot_gateway/rest_clients/{}/iot_items/{}\".format(rest_clients_name, iot_items_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "iotgateway_restservers",
+        "params": [],
+        "path": "\"/config/v1/project/_iot_gateway/rest_servers\".format()"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "iotgateway_restservers",
+        "params": [
+            "rest_servers_name"
+        ],
+        "path": "\"/config/v1/project/_iot_gateway/rest_servers/{}\".format(rest_servers_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "iotgateway_restservers_iotitems",
+        "params": [
+            "rest_servers_name"
+        ],
+        "path": "\"/config/v1/project/_iot_gateway/rest_servers/{}/iot_items\".format(rest_servers_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "iotgateway_restservers_iotitems",
+        "params": [
+            "iot_items_name",
+            "rest_servers_name"
+        ],
+        "path": "\"/config/v1/project/_iot_gateway/rest_servers/{}/iot_items/{}\".format(iot_items_name, rest_servers_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "iotgateway_thingworxclients",
+        "params": [],
+        "path": "\"/config/v1/project/_iot_gateway/thingworx_clients\".format()"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "iotgateway_thingworxclients",
+        "params": [
+            "thingworx_clients_name"
+        ],
+        "path": "\"/config/v1/project/_iot_gateway/thingworx_clients/{}\".format(thingworx_clients_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "iotgateway_thingworxclients_iotitems",
+        "params": [
+            "thingworx_clients_name"
+        ],
+        "path": "\"/config/v1/project/_iot_gateway/thingworx_clients/{}/iot_items\".format(thingworx_clients_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "iotgateway_thingworxclients_iotitems",
+        "params": [
+            "thingworx_clients_name",
+            "iot_items_name"
+        ],
+        "path": "\"/config/v1/project/_iot_gateway/thingworx_clients/{}/iot_items/{}\".format(thingworx_clients_name, iot_items_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "scheduler",
+        "params": [],
+        "path": "\"/config/v1/project/_scheduler\".format()"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "scheduler_priorities",
+        "params": [],
+        "path": "\"/config/v1/project/_scheduler/priorities\".format()"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "scheduler_priorities",
+        "params": [
+            "priorities_name"
+        ],
+        "path": "\"/config/v1/project/_scheduler/priorities/{}\".format(priorities_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "scheduler_schedules",
+        "params": [],
+        "path": "\"/config/v1/project/_scheduler/schedules\".format()"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "scheduler_schedules",
+        "params": [
+            "schedules_name"
+        ],
+        "path": "\"/config/v1/project/_scheduler/schedules/{}\".format(schedules_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "scheduler_schedules_exceptiongroups",
+        "params": [
+            "schedules_name"
+        ],
+        "path": "\"/config/v1/project/_scheduler/schedules/{}/exception_groups\".format(schedules_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "scheduler_schedules_exceptiongroups",
+        "params": [
+            "exception_groups_name",
+            "schedules_name"
+        ],
+        "path": "\"/config/v1/project/_scheduler/schedules/{}/exception_groups/{}\".format(exception_groups_name, schedules_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "scheduler_schedules_exceptiongroups_pollexceptions",
+        "params": [
+            "exception_groups_name",
+            "schedules_name"
+        ],
+        "path": "\"/config/v1/project/_scheduler/schedules/{}/exception_groups/{}/poll_exceptions\".format(exception_groups_name, schedules_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "scheduler_schedules_exceptiongroups_pollexceptions",
+        "params": [
+            "poll_exceptions_name",
+            "exception_groups_name",
+            "schedules_name"
+        ],
+        "path": "\"/config/v1/project/_scheduler/schedules/{}/exception_groups/{}/poll_exceptions/{}\".format(poll_exceptions_name, exception_groups_name, schedules_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "scheduler_schedules_realtimeobjects",
+        "params": [
+            "schedules_name"
+        ],
+        "path": "\"/config/v1/project/_scheduler/schedules/{}/real_time_objects\".format(schedules_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "scheduler_schedules_realtimeobjects",
+        "params": [
+            "real_time_objects_name",
+            "schedules_name"
+        ],
+        "path": "\"/config/v1/project/_scheduler/schedules/{}/real_time_objects/{}\".format(real_time_objects_name, schedules_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "scheduler_schedules_realtimeobjects_schedulerchannels",
+        "params": [
+            "real_time_objects_name",
+            "schedules_name"
+        ],
+        "path": "\"/config/v1/project/_scheduler/schedules/{}/real_time_objects/{}/scheduler_channels\".format(real_time_objects_name, schedules_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "scheduler_schedules_realtimeobjects_schedulerchannels",
+        "params": [
+            "scheduler_channels_name",
+            "real_time_objects_name",
+            "schedules_name"
+        ],
+        "path": "\"/config/v1/project/_scheduler/schedules/{}/real_time_objects/{}/scheduler_channels/{}\".format(scheduler_channels_name, real_time_objects_name, schedules_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "scheduler_schedules_realtimeobjects_schedulerchannels_schedulerdevices",
+        "params": [
+            "scheduler_channels_name",
+            "real_time_objects_name",
+            "schedules_name"
+        ],
+        "path": "\"/config/v1/project/_scheduler/schedules/{}/real_time_objects/{}/scheduler_channels/{}/scheduler_devices\".format(scheduler_channels_name, real_time_objects_name, schedules_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "scheduler_schedules_realtimeobjects_schedulerchannels_schedulerdevices",
+        "params": [
+            "scheduler_channels_name",
+            "scheduler_devices_name",
+            "real_time_objects_name",
+            "schedules_name"
+        ],
+        "path": "\"/config/v1/project/_scheduler/schedules/{}/real_time_objects/{}/scheduler_channels/{}/scheduler_devices/{}\".format(scheduler_channels_name, scheduler_devices_name, real_time_objects_name, schedules_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "scheduler_schedules_realtimeobjects_schedulerchannels_schedulerdevices_schedulertags",
+        "params": [
+            "scheduler_channels_name",
+            "scheduler_devices_name",
+            "real_time_objects_name",
+            "schedules_name"
+        ],
+        "path": "\"/config/v1/project/_scheduler/schedules/{}/real_time_objects/{}/scheduler_channels/{}/scheduler_devices/{}/scheduler_tags\".format(scheduler_channels_name, scheduler_devices_name, real_time_objects_name, schedules_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "scheduler_schedules_realtimeobjects_schedulerchannels_schedulerdevices_schedulertags",
+        "params": [
+            "real_time_objects_name",
+            "scheduler_devices_name",
+            "scheduler_tags_name",
+            "schedules_name",
+            "scheduler_channels_name"
+        ],
+        "path": "\"/config/v1/project/_scheduler/schedules/{}/real_time_objects/{}/scheduler_channels/{}/scheduler_devices/{}/scheduler_tags/{}\".format(real_time_objects_name, scheduler_devices_name, scheduler_tags_name, schedules_name, scheduler_channels_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "scheduler_schedules_recurrencegroups",
+        "params": [
+            "schedules_name"
+        ],
+        "path": "\"/config/v1/project/_scheduler/schedules/{}/recurrence_groups\".format(schedules_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put"
+        ],
+        "base_name": "scheduler_schedules_recurrencegroups",
+        "params": [
+            "recurrence_groups_name",
+            "schedules_name"
+        ],
+        "path": "\"/config/v1/project/_scheduler/schedules/{}/recurrence_groups/{}\".format(recurrence_groups_name, schedules_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "post"
+        ],
+        "base_name": "scheduler_schedules_recurrencegroups_pollrecurrences",
+        "params": [
+            "recurrence_groups_name",
+            "schedules_name"
+        ],
+        "path": "\"/config/v1/project/_scheduler/schedules/{}/recurrence_groups/{}/poll_recurrences\".format(recurrence_groups_name, schedules_name)"
+    },
+    {
+        "actions": [
+            "get",
+            "put",
+            "delete"
+        ],
+        "base_name": "scheduler_schedules_recurrencegroups_pollrecurrences",
+        "params": [
+            "poll_recurrences_name",
+            "recurrence_groups_name",
+            "schedules_name"
+        ],
+        "path": "\"/config/v1/project/_scheduler/schedules/{}/recurrence_groups/{}/poll_recurrences/{}\".format(poll_recurrences_name, recurrence_groups_name, schedules_name)"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "_config_v1_transactionlog",
+        "params": [],
+        "path": "\"/config/v1/transaction_log\".format()"
+    },
+    {
+        "actions": [
+            "get"
+        ],
+        "base_name": "_config_v1_eventlog",
+        "params": [],
+        "path": "\"/config/v1/event_log\".format()"
+    }
+]
